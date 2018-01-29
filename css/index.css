@@ -24,10 +24,10 @@ video {
   font-family: 'Open Sans', sans-serif;
   background: rgba(0,0,0,0.3);
   color: white;
-  padding: 1rem;
-  padding-bottom: 0rem;
   width: 33%;
-  margin:1rem;
+  margin: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   float: left;
   font-size: 1rem;
   border-radius: 8px;
@@ -35,7 +35,6 @@ video {
 }
 h1 {
   font-size: 2.rem;
-  margin-top: 0;
   letter-spacing: .4rem;
   text-transform: uppercase;
 }
@@ -47,10 +46,14 @@ a {
   transition: .6s background;
 }
 
-@media screen and (max-width: 500px) {
-  div{width:70%;}
-}
-@media screen and (max-device-width: 800px) {
-  html { background: url(https://thenewcode.com/assets/images/description_box.jpg) #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
+@media screen and (max-width: 700px) {
+  #description_box {
+    width:70%;
+    float: none;
+    margin: 1rem auto;
+    padding: 0.5rem
+  }
+  h1{
+    text-align: center;
+  }
 }
