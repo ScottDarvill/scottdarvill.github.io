@@ -46,7 +46,7 @@ a {
   transition: .6s background;
 }
 
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   #description_box {
     width:70%;
     float: none;
