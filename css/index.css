@@ -12,12 +12,16 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/description_box.jpg') no-repeat;
+  background: url('//demosthenes.info/assets/images/description_box.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
 .stopfade {
    opacity: .5;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
 
 #description_box {
@@ -50,7 +54,9 @@ a {
   #description_box {
     width:70%;
     float: none;
-    margin: 1rem auto;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.5rem
   }
   h1{
