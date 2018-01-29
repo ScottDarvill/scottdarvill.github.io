@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background: #000; 
+  background: #000;
 }
-video { 
+video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -16,15 +16,16 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-.stopfade { 
+.stopfade {
    opacity: .5;
 }
 
-#description_box { 
+#description_box {
   font-family: 'Open Sans', sans-serif;
   background: rgba(0,0,0,0.3);
   color: white;
   padding: 1rem;
+  padding-bottom: 0rem;
   width: 33%;
   margin:1rem;
   float: left;
@@ -43,12 +44,11 @@ a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  padding: .2rem;
-  transition: .6s background; 
+  transition: .6s background;
 }
 
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
+@media screen and (max-width: 500px) {
+  div{width:70%;}
 }
 @media screen and (max-device-width: 800px) {
   html { background: url(https://thenewcode.com/assets/images/description_box.jpg) #000 no-repeat center center fixed; }
